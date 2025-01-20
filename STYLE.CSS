@@ -1,0 +1,40 @@
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+}
+
+img{
+    height: 150px;
+}
+
+#result{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 7px;
+    background-color: darkslateblue;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: bisque;
+    border: 2px solid darkslateblue;
+    letter-spacing: 2px;
+    color: black;
+}
